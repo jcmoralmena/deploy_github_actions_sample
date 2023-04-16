@@ -45,5 +45,7 @@ jobs:
         environment_name: Aplicacioncarlosmoral-env
         # Nombre de la versión a crear en Beanstalk
         version_label: v1.0
+        # Usar versión existente
+        use_existing_version_if_available: true
         # Archivo con el código de la aplicación (generado en el paso anterior)
         deployment_package: deploy.zip
